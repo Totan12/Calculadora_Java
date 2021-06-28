@@ -41,7 +41,7 @@ public class TareaFinalGeraldJonathan {
           int opcionRecibida=Integer.parseInt(opcion);
           System.out.println ("Seleccionó la opción: \"" + opcionRecibida +"\"");
 
-          //mediante la opción seleccionada se realiza la operación
-          //se selecciona una decisión a partir de la opción seleccionada, con varios posibles posible 
-          switch(opcionRecibida){
+        //mediante la opción seleccionada se realiza la operación
+        //se selecciona una decisión a partir de la opción seleccionada, con varios posibles posible
+        switch(opcionRecibida){
                     
