@@ -40,8 +40,22 @@ public class TareaFinalGeraldJonathan {
           opcion = opcionEscaner.nextLine (); //Invocamos un método sobre un objeto Scanner
           int opcionRecibida=Integer.parseInt(opcion);
           System.out.println ("Seleccionó la opción: \"" + opcionRecibida +"\"");
-
-        //mediante la opción seleccionada se realiza la operación
-        //se selecciona una decisión a partir de la opción seleccionada, con varios posibles posible
-        switch(opcionRecibida){
-                    
+          
+          //mediante la opción seleccionada se realiza la operación
+          //se selecciona una decisión a partir de la opción seleccionada, con varios posibles posible 
+          switch(opcionRecibida){
+              case 1:
+                  //se calcula la función seno del ángulo ingresado
+                  valor = Math.sin(anguloRadianes);
+                  System.out.println("Seno de " + angulo + "º = " + valor);
+                  break;
+              case 2:
+                  //se calcula la función coseno del ángulo ingresado
+                valor = Math.cos(anguloRadianes);
+                System.out.println("Coseno de " + angulo + "º = " + valor);
+                break;
+            case 3:
+                //se calcula la función tangente del ángulo ingresado
+                valor = Math.tan(anguloRadianes);
+                System.out.println("Tangente de " + angulo + "º = " + valor);
+                break;
