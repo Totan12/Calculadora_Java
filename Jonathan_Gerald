@@ -33,3 +33,15 @@ public class TareaFinalGeraldJonathan {
         //se imprime el menú
         System.out.println("\tMENÚ\n1 Seno\n2 Coseno\n3 Tangente\n4 Seno Inverso (Ángulo entre -1 y 1)\n5 Coseno Inverso (Ángulo entre -1 y 1)\n6 Tangente Inverso\n7 "
                     + "Seno Hiberbólico\n8 Coseno Hiperbólico\n9 Tangente Hiperbólico"+"\n10 Salir\n ***Ingresa tu opción del menú***");
+      
+        //se obtiene el dato ingresado en la terminal
+          String opcion = "";
+          Scanner opcionEscaner = new Scanner (System.in); //Creación de un objeto Scanner
+          opcion = opcionEscaner.nextLine (); //Invocamos un método sobre un objeto Scanner
+          int opcionRecibida=Integer.parseInt(opcion);
+          System.out.println ("Seleccionó la opción: \"" + opcionRecibida +"\"");
+
+          //mediante la opción seleccionada se realiza la operación
+          //se selecciona una decisión a partir de la opción seleccionada, con varios posibles posible 
+          switch(opcionRecibida){
+                    
