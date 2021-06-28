@@ -9,3 +9,14 @@ public class TareaFinalGeraldJonathan {
     public static void main(String[] args) {
         
         System.out.println("CALCULADORA AVANZADA");
+        
+        //se obtiene el dato ingresado en la terminal
+        System.out.println("Introduce el ángulo que deseas calcular");
+        String entradaTeclado = "";
+        Scanner entradaEscaner = new Scanner (System.in); //Creación de un objeto Scanner
+        entradaTeclado = entradaEscaner.nextLine (); //Invocamos un método sobre un objeto Scanner
+        double angGrados=Double.parseDouble(entradaTeclado);// se pasa a double lo ingresado
+
+        // se convierte de grados a radianes mediante la biblioteca de java .Math
+        double angRadianes = Math.toRadians(angGrados);
+        System.out.println("Deg a Rad: " + angGrados + "º = " + angRadianes + " rad");
