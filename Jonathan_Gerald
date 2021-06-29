@@ -1,5 +1,3 @@
-package tareafinalgeraldjonathan;
-
 import java.util.Scanner;
 
 
@@ -54,8 +52,28 @@ public class TareaFinalGeraldJonathan {
                 valor = Math.cos(anguloRadianes);
                 System.out.println("Coseno de " + angulo + "º = " + valor);
                 break;
-            case 3:
-                //se calcula la función tangente del ángulo ingresado
-                valor = Math.tan(anguloRadianes);
-                System.out.println("Tangente de " + angulo + "º = " + valor);
-                break;
+              case 3:
+                  //se calcula la función tangente del ángulo ingresado
+                  valor = Math.tan(anguloRadianes);
+                  System.out.println("Tangente de " + angulo + "º = " + valor);
+                  break;
+              case 4:
+                  //se calcula la función seno inverso del ángulo ingresado
+                  valor = angGrados;
+                  anguloRadianes = Math.asin(valor);
+                  angulo = Math.toDegrees(anguloRadianes);
+                  System.out.println("Seno inverso de " + valor + " = " + angulo + "º");
+                  break;
+              case 5: 
+                  //se calcula la función coseno inverso del ángulo ingresado
+                  valor = angGrados;
+                  anguloRadianes = Math.acos(valor);
+                  angulo = Math.toDegrees(anguloRadianes);
+                  System.out.println("Coseno inverso de " + valor + " = " + angulo + "º");
+                  break;
+              case 6:
+                  //se calcula la función tangente inversa del ángulo ingresado
+                  valor = angGrados;
+                  anguloRadianes = Math.atan(valor);
+                  angulo = Math.toDegrees(anguloRadianes);
+                  System.out.println("Tangente inverso de " + valor + " = " + angulo + "º");
