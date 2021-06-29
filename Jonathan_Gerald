@@ -76,21 +76,29 @@ public class TareaFinalGeraldJonathan {
                   valor = angGrados;
                   anguloRadianes = Math.atan(valor);
                   angulo = Math.toDegrees(anguloRadianes);
-                  System.out.println("Tangente inverso de " + valor + " = " + angulo + "º");
-                  
+                  System.out.println("Tangente inverso de " + valor + " = " + angulo + "º");             
               case 7:
                 //se calcula la función seno hiperbólico del ángulo ingresado
                 double valor1 = 0;
                 double x = angGrados;
                 valor1 = Math.sinh(x);
                 System.out.println("Seno Hiperbólico de " + x + " = " + valor1);
-                break;    
-                
-                case 8: 
+                break;              
+              case 8: 
                 //se calcula la función coseno hiperbólico del ángulo ingresado
                 double valor2 = 0;
                 double y = angGrados;
-
                 valor2 = Math.cosh(y);
                 System.out.println("Coseno Hiperbólico de " + y + " = " + valor2);
-                break;
+                break;           
+              case 9: 
+                //se calcula la función tangente hiperbólico del ángulo ingresado
+                double valor3 = 0;
+                double z = angGrados;
+                valor3 = Math.tanh(z);
+                System.out.println("Tangente Hiperbólica de " + z + " = " + valor3);  
+        }
+
+    }
+    
+}  
