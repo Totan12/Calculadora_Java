@@ -85,3 +85,12 @@ public class TareaFinalGeraldJonathan {
                 valor1 = Math.sinh(x);
                 System.out.println("Seno Hiperbólico de " + x + " = " + valor1);
                 break;    
+                
+                case 8: 
+                //se calcula la función coseno hiperbólico del ángulo ingresado
+                double valor2 = 0;
+                double y = angGrados;
+
+                valor2 = Math.cosh(y);
+                System.out.println("Coseno Hiperbólico de " + y + " = " + valor2);
+                break;
